@@ -8,24 +8,6 @@ const int fsrCount = 2;
 AccelStepper stepper1 = AccelStepper(MotorInterfaceType, 8, 9, 10, 11);
 AccelStepper stepper2 = AccelStepper(MotorInterfaceType, 4, 5, 6, 7);
 
-/*
-class ForceSensor {
-  public:
-    int fsrPin;
-    int fsrReading;
-    ForceSensor(int fsrPin, int fsrReading) {
-      fsrPin = fsrPin;
-      fsrReading = fsrReading;
-    }
-
-    void getReading() {
-      Serial.println(fsrReading);
-    }
-};
-
-ForceSensor fsrs[5];
-*/
-
 // declaration & initialisation of variable arrays
 int fsrPin[] = {A0, A1};
 int fsrReading[] = {0, 0};
