@@ -16,7 +16,13 @@ A force sensing resistor will detect the amount of force exerted on the resistor
 
 ## What I Learnt
 
-Throughout the development of this project, I picked up various important skills and reinforced my engineering knowledge at the same time. The things I learnt can be divided into the following:
+Throughout the development of this project, I picked up various important skills and reinforced my engineering knowledge at the same time. The project involved many iterations and versions to be created until a proper and functional design was made. Trial and error was a common occurence, both in hardware and software domains, something I had to embrace and work with despite the range of emotions I experienced.
+
+The things I learnt can be divided into the following:
+
+- Hardware
+- Software
+- Documentation
 
 ### Hardware (Electrical & Mechanical)
 
