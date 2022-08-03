@@ -15,3 +15,11 @@ A force sensing resistor will detect the amount of force exerted on the resistor
 ![Image](syringeMechanismImg.PNG)
 
 ## What I Learnt
+
+Throughout the development of this project, I picked up various important skills and reinforced my engineering knowledge at the same time. The things I learnt can be divided into the following:
+
+### Hardware (Electrical & Mechanical)
+
+### Software
+
+### Documentation
