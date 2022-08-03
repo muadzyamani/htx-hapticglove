@@ -13,3 +13,5 @@ This project involves using syringes which pump in air to silicon sockets attach
 A force sensing resistor will detect the amount of force exerted on the resistor, which is translated to a suitable number of steps value for the stepper motor to move.
 
 ![Image](syringeMechanismImg.PNG)
+
+## What I Learnt
