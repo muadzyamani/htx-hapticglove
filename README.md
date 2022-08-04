@@ -26,7 +26,9 @@ The things I learnt can be divided into the following:
 
 ### Hardware (Electrical & Mechanical)
 
-The main mechanism designed to change the volume of air being pumped into the silicone sockets comes from the hardware portion of the project. I learnt how to incorporate different components together, such as the linear rail, sliding block, syringe holder, plunger holder, motor mount, etc. Initially, this was challenging because whenever a design review was conducted, subsequent parts that were affected had to be remodelled and manufactured. Nonetheless, patience and perserverance ...
+The main mechanism designed to change the volume of air being pumped into the silicone sockets comes from the hardware portion of the project. I learnt how to incorporate different components together, such as the linear rail, sliding block, syringe holder, plunger holder, motor mount, etc. In addition, I revisited previously learnt concepts when laying out the electrical circuit and introducing electronic components.
+
+Initially, this was challenging because whenever a design review was conducted, subsequent parts that were affected had to be remodelled, redesigned or manufactured again. Nonetheless, it was patience and perserverance that paid off in the end upon observing the completed assembly.
 
 ### Software
 
