@@ -36,4 +36,12 @@ Initially, this was challenging because whenever a design review was conducted, 
 
 ### Software
 
+For the whole mechanism and project to function, instructions had to be given. An Arduino Mega was used as the microcontroller to read the force sensing resistor values and turn the stepper motors. After perusing several guides, tutorials and articles, I was able to put together a program that could satisfy the project requirements. Learning how to use the AccelStepper library empowered me to produce concise and reliable instructions for the NEMA 17 Stepper Motors used.
+
+I found the software process meaningful and rewarding. Exploring and trying, all in search of possible improvements proved to be salient.
+
 ### Documentation
+
+As part of staying organised, I decided to document the project. Documenting a project is undoubtedly a skill that I wish to enchance. I learnt to tell a story while relaying the details of the project. Sometimes as I write, I would reflect and experience a light bulb moment, a state of realisation or epiphany to a problem.
+
+A well-written string of text, painted with diagrams and illustrations can go a long way to serve as a reminder for my future self, or a guide for others who wish to build on the idea. See my documentation [here]()
