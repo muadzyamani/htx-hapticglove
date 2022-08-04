@@ -55,3 +55,11 @@ After working on this project, I understand that there are some possible improve
 A printed circuit board (PCB) that contains all the electrical components would be a great enhancement for a start. The overall final design would look visually appealing, a huge aesthetical improvement. It would also eliminate common, trivial sources of issues, such as loose wiring or contacts since copper traces are embedded into the board and components are soldered firmly. The circuit would be better organised, since labellings would be present on the board, allowing the user to quickly identify the components.
 
 This improvement is feasible and realistic. Some effort would be needed to draw the circuit to produce an electronic CAD model for manufacturing. Nonetheless, it would be another great learning opportunity.
+
+### Fine-tuning specific components
+
+Looking at the overall project design, I wholeheartedly agree that certain parts can be streamlined. This version was a great improvement from the 1st version, where huge blocks and two guiding rails were used, yet more can be done.
+
+The linear rails can be cut to a more compact size that would allow maximum syringe and plunger air volume being pumped, giving a more professional look. The same can be said about the threaded rod, with its teeth. A coarser threaded rod would increase the distance moved per rotation, as compared to a finer one. Perhaps even the force sensing resistor, whereby its calibration can be further sharpened with regards to the software aspect.
+
+## Final Thoughts
