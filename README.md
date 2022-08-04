@@ -45,3 +45,13 @@ I found the software process meaningful and rewarding. Exploring and trying, all
 As part of staying organised, I decided to document the project. Documenting a project is undoubtedly a skill that I wish to enchance. I learnt to tell a story while relaying the details of the project. Sometimes as I write, I would reflect and experience a light bulb moment, a state of realisation or epiphany to a problem.
 
 A well-written document, included with diagrams and illustrations can go a long way to serve as a reminder for my future self, or a guide for others who wish to build on the idea. See my documentation [here](https://github.com/muadzyamani/htx-hapticglove/tree/main/Documentation).
+
+## Possible Improvements
+
+After working on this project, I understand that there are some possible improvements that can be made.
+
+### Incorporating all the electronics to be PCB-based
+
+A printed circuit board (PCB) that contains all the electrical components would be a great enhancement for a start. The overall final design would look visually appealing, a huge aesthetical improvement. It would also eliminate common, trivial sources of issues, such as loose wiring or contacts since copper traces are embedded into the board and components are soldered firmly. The circuit would be better organised, since labellings would be present on the board, allowing the user to quickly identify the components.
+
+This improvement is feasible and realistic. Some effort would be needed to draw the circuit to produce an electronic CAD model for manufacturing. Nonetheless, it would be another great learning opportunity.
