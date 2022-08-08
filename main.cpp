@@ -2,6 +2,7 @@
 #include <Arduino.h>
 #include <AccelStepper.h>
 
+// declaration of constants
 const int MotorInterfaceType = 4;
 const int fsrCount = 2;
 
@@ -9,13 +10,13 @@ AccelStepper stepper1 = AccelStepper(MotorInterfaceType, 8, 9, 10, 11);
 AccelStepper stepper2 = AccelStepper(MotorInterfaceType, 4, 5, 6, 7);
 
 // declaration & initialisation of variable arrays
-int fsrPin[] = {A0, A1};
+int fsrPin[] = {A1, A2};
 int fsrReading[] = {0, 0};
 int numberOfSteps[] = {0, 0};
 
 void setup() {
-  stepper1.setMaxSpeed(900);
-  stepper2.setMaxSpeed(900);
+  stepper1.setMaxSpeed(800);
+  stepper2.setMaxSpeed(800);
 
   Serial.begin(115200);
 }
@@ -26,7 +27,7 @@ void loop() {
     fsrReading[i] = analogRead(fsrPin[i]);
 
     // convert the particular fsrReading to a corresponding step value
-    numberOfSteps[i] = map(fsrReading[i], 0, 300, 0, 1200);
+    // numberOfSteps[i] = map(fsrReading[i], 0, 300, 0, 1500);
     
     // slight hardware issue where fsr 2 is more senstive than 1, could be solved via software/code
     // perhaps use a conditional to detect if i = 1 (remember index 1 is fsr 2) is true then map to a revised value
@@ -35,17 +36,21 @@ void loop() {
       //   numberOfSteps[i] = map(fsrReading[i], x, x, x, x);
       // }
     
-    if (i == 1) {
-      numberOfSteps[i] = map(fsrReading[i], 0, 300, 0, 100);
-    }
+    if (i == 0) {
+      numberOfSteps[i] = map(fsrReading[i], 0, 50, 0, 2000);
+    } else if (i == 1) {
+      numberOfSteps[i] = map(fsrReading[i], 0, 300, 0, 2000);
+    } // else if (i == ...){
+      
+  //}
   }
 
   // moving all the motors using the AccelStepper library
   stepper1.moveTo(numberOfSteps[0]);
   stepper2.moveTo(numberOfSteps[1]);
 
-  stepper1.setAcceleration(800.0);
-  stepper2.setAcceleration(800.0);
+  stepper1.setAcceleration(1000.0);
+  stepper2.setAcceleration(1000.0);
 
   stepper1.run();
   stepper2.run();
