@@ -62,4 +62,10 @@ Looking at the overall project design, I wholeheartedly agree that certain parts
 
 The linear rails can be cut to a more compact size that would allow maximum syringe and plunger air volume being pumped, giving a more professional look. The same can be said about the threaded rod, with its teeth. A coarser threaded rod would increase the distance moved per rotation, as compared to a finer one. Perhaps even the force sensing resistor, whereby its calibration can be further sharpened with regards to the software aspect.
 
+### Adding a GUI/Web Interface
+
+Having a Graphical User Interface (GUI) or Web-based interface would be a great level of abstraction. This interface could contain pertinent properties such as the force sensor readings, calculated number of steps, syringe position, etc.
+
+With this, not only would information be relayed clearly to the user, but it would also improve the user friendliness and overall appreciation for this project.
+
 ## Final Thoughts
