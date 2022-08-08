@@ -66,6 +66,8 @@ The linear rails can be cut to a more compact size that would allow maximum syri
 
 Having a Graphical User Interface (GUI) or Web-based interface would be a great level of abstraction. This interface could contain pertinent properties such as the force sensor readings, calculated number of steps, syringe position, etc.
 
-With this, not only would information be relayed clearly to the user, but it would also improve the user friendliness and overall appreciation for this project.
+With this, not only would information be relayed more clearly to the user, but it would also improve the user friendliness and overall appreciation for this project. I would also be diving into the art of creating such interfaces, which would be another learning opportunity.
 
 ## Final Thoughts
+
+All in all, working on this project has deepened my sense of understanding and knowledge in many ways. Besides being able to apply what I have learnt previously, I was also able to improve my engineering skillsets throughout this development. I look forward to seeing how the project can be implemented as a real world application, and perhaps even contribute further to enhance its capabilities.
