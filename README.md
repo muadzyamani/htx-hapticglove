@@ -42,7 +42,7 @@ I found the software process meaningful and rewarding. Exploring and trying, all
 
 ### Documentation
 
-As part of staying organised, I decided to document the project. Documenting a project is undoubtedly a skill that I wish to enchance. I learnt to tell a story while relaying the details of the project. Sometimes as I write, I would reflect and experience a light bulb moment, a state of realisation or epiphany to a problem.
+As part of staying organised, I decided to document the project. Documenting a project is undoubtedly a skill that I wish to further cultivate. I learnt to tell a story while relaying the details of the project. Sometimes as I write, I would reflect and experience a light bulb moment, a state of realisation or epiphany to a problem.
 
 A well-written document, included with diagrams and illustrations can go a long way to serve as a reminder for my future self, or a guide for others who wish to build on the idea. See my documentation [here](https://github.com/muadzyamani/htx-hapticglove/tree/main/Documentation).
 
