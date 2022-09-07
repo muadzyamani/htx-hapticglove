@@ -46,15 +46,15 @@ void loop() {
       // }
     
     if (i == 0) {
-      numberOfSteps[i] = map(fsrReading[i], 0, 50, 0, 2000);
+      numberOfSteps[i] = map(fsrReading[i], 0, 300, 0, 2000);
     } else if (i == 1) {
-      numberOfSteps[i] = map(fsrReading[i], 0, 50, 0, 2000);
+      numberOfSteps[i] = map(fsrReading[i], 0, 300, 0, 2000);
     } else if (i == 2) {
-      numberOfSteps[i] = map(fsrReading[i], 0, 50, 0, 2000);
+      numberOfSteps[i] = map(fsrReading[i], 0, 300, 0, 2000);
     } else if (i == 3) {
-      numberOfSteps[i] = map(fsrReading[i], 0, 50, 0, 2000);
+      numberOfSteps[i] = map(fsrReading[i], 0, 300, 0, 2000);
     } else if (i == 4) {
-      numberOfSteps[i] = map(fsrReading[i], 0, 50, 0, 2000);
+      numberOfSteps[i] = map(fsrReading[i], 0, 300, 0, 2000);
     }
     
     // else if (i == ...){
