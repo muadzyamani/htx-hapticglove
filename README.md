@@ -2,6 +2,8 @@
 
 The haptic glove project is one of the projects I worked on during my time as an intern at the Home Team Science & Technology Agency (HTX).
 
+![Image](https://github.com/muadzyamani/htx-hapticglove/blob/main/Images/completeMechanismImg.png)
+
 ## Objective
 
 To use a force touch sensor to provide an equivalent force (haptic feedback) on the user’s fingers fitted in a glove.
